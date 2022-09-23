@@ -25,7 +25,7 @@ def check_domains(urls):
         elif redirect_result.startswith("http"):
             if redirect_result.split("://")[1].split("/")[0] != url_to_check.split("://")[1].split("/")[0]:
                 print("[domain has changed:]", "%s => %s" % (url_to_check, redirect_result))
-    print("end to check web apps")
+    print("[INFO]end to check web apps")
 
 
 def get_app_url_list(filename):
