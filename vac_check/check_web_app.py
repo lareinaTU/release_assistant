@@ -38,5 +38,5 @@ def get_app_url_list(filename):
     return url_list
 
 
-urls = get_app_url_list("apk_config.json")
+urls = get_app_url_list("./configs/apps/cros/test.json")
 check_domains(urls)
