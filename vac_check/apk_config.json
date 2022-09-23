@@ -1,0 +1,736 @@
+[
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/adobe_acrobat/icon.png",
+    "id": "https://acrobat.adobe.com/link/home/",
+    "name": "Adobe Acrobat",
+    "type": "web_app",
+    "uuid": "adobe_acrobat"
+  },
+  {
+    "categories": [
+      "project_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/asana/icon.png",
+    "id": "https://asana.com/",
+    "name": "Asana",
+    "type": "web_app",
+    "uuid": "asana"
+  },
+  {
+    "categories": [
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/bluejeans/icon.png",
+    "id": "https://www.bluejeans.com/",
+    "name": "BlueJeans",
+    "type": "web_app",
+    "uuid": "bluejeans"
+  },
+  {
+    "categories": [
+      "file_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/box/icon.png",
+    "id": "https://www.box.com/",
+    "name": "Box",
+    "type": "web_app",
+    "uuid": "box"
+  },
+  {
+    "categories": [
+      "design_and_creativity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/canva/icon.png",
+    "id": "https://www.canva.com/",
+    "name": "Canva",
+    "type": "web_app",
+    "uuid": "canva"
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/disneyplus/icon.png",
+    "id": "https://www.disneyplus.com/",
+    "name": "Disney+",
+    "type": "web_app",
+    "uuid": "disneyplus"
+  },
+  {
+    "categories": [
+      "file_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/dropbox/icon.png",
+    "id": "ioekoebejdcmnlefjiknokhhafglcjdl",
+    "manifest": "{\n\"update_url\": \"https://clients2.google.com/service/update2/crx\",\n\n  \"name\": \"__MSG_appName__\",\n  \"description\": \"__MSG_appDesc__\",\n  \"default_locale\": \"en\",\n  \"version\": \"3.2.1\",\n  \"manifest_version\": 2,\n  \"icons\": {\n    \"128\": \"icon_128.png\"\n  },\n  \"app\": {\n    \"urls\": [\n      \"https://www.dropbox.com/at/cws\"\n    ],\n    \"launch\": {\n      \"web_url\": \"https://www.dropbox.com/at/cws\"\n    }\n  }\n}\n\n\n",
+    "name": "Dropbox",
+    "type": "chrome_app",
+    "uuid": "dropbox"
+  },
+  {
+    "categories": [
+      "education"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/duolingo/icon.png",
+    "id": "https://www.duolingo.com/",
+    "name": "Duolingo",
+    "type": "web_app",
+    "uuid": "duolingo"
+  },
+  {
+    "categories": [
+      "education"
+    ],
+    "icon": "https://dl.vibe.us/apks/com.google.earth/icon.png",
+    "id": "https://earth.google.com/web",
+    "name": "Google Earth",
+    "type": "web_app",
+    "uuid": "google_earth"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/evernote/icon.png",
+    "id": "https://evernote.com/",
+    "name": "Evernote",
+    "type": "web_app",
+    "uuid": "evernote"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/explain_everything/icon.png",
+    "id": "https://drive.explaineverything.com/discover/projects/screencasts",
+    "name": "Explain Everything",
+    "type": "web_app",
+    "uuid": "explain_everything"
+  },
+  {
+    "categories": [
+      "design_and_creativity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/figma/icon.png",
+    "id": "https://www.figma.com/files/recent",
+    "name": "Figma",
+    "type": "web_app",
+    "uuid": "figma"
+  },
+  {
+    "categories": [
+      "education"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/flipgrid/icon.png",
+    "id": "https://info.flipgrid.com/",
+    "name": "Flipgrid",
+    "type": "web_app",
+    "uuid": "flipgrid"
+  },
+  {
+    "categories": [
+      "education"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/canvas/icon.png",
+    "id": "https://www.canvas.net/",
+    "name": "Canvas",
+    "type": "web_app",
+    "uuid": "canvas"
+  },
+  {
+    "categories": [
+      "education"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/google_classroom/icon.png",
+    "id": "mfhehppjhmmnlfbbopchdfldgimhfhfk",
+    "manifest": "{\n\"update_url\": \"https://clients2.google.com/service/update2/crx\",\n\n  \"name\": \"__MSG_appName__\",\n  \"short_name\": \"Classroom\",\n  \"description\": \"__MSG_appDesc__\",\n  \"version\": \"1.8\",\n  \"default_locale\": \"en\",\n  \"app\": {\n    \"urls\": [\n      \"*://classroom.google.com/\"\n    ],\n    \"launch\": {\n      \"web_url\": \"https://classroom.google.com/\"\n    }\n  },\n  \"icons\": {\n    \"128\": \"icon_128.png\"\n  },\n  \"manifest_version\": 2\n}\n",
+    "name": "Google Classroom",
+    "type": "chrome_app",
+    "uuid": "google_classroom"
+  },
+  {
+    "categories": [
+      "file_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/google_drive/icon.png",
+    "id": "apdfllckaahabafndbhieahigkjlhalf",
+    "manifest": "{\n\"update_url\": \"https://clients2.google.com/service/update2/crx\",\n\n  \"name\": \"__MSG_appName__\",\n  \"description\":\"__MSG_appDesc__\",\n  \"default_locale\": \"en_US\",\n  \"version\": \"14.5\",\n  \"icons\": {\"128\": \"128.png\" },\n  \"offline_enabled\": true,\n  \"manifest_version\": 2,\n  \"permissions\": [\n    \"clipboardRead\",\n    \"clipboardWrite\",\n    \"notifications\"\n  ],\n  \"options_page\": \"https://drive.google.com/drive/settings\",\n  \"background\": { \"allow_js_access\": false },\n  \"app\": {\n    \"launch\": {\n      \"web_url\": \"https://drive.google.com/?usp=chrome_app\"\n    },\n    \"urls\": [\n      \"http://docs.google.com/\",\n      \"http://drive.google.com/\",\n      \"https://docs.google.com/\",\n      \"https://drive.google.com/\"\n    ]\n  }\n}\n",
+    "name": "Google Drive",
+    "type": "chrome_app",
+    "uuid": "google_drive"
+  },
+  {
+    "categories": [
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/google_meet/icon.png",
+    "id": "https://meet.google.com/meet",
+    "name": "Google Meet",
+    "type": "web_app",
+    "uuid": "google_meet"
+  },
+  {
+    "categories": [
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/gotomeeting/icon.png",
+    "id": "https://global.gotomeeting.com/",
+    "name": "GoToMeeting",
+    "type": "web_app",
+    "uuid": "gotomeeting"
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/hulu/icon.png",
+    "id": "https://www.hulu.com/welcome",
+    "name": "Hulu",
+    "type": "web_app",
+    "uuid": "hulu"
+  },
+  {
+    "categories": [
+      "project_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/jira/icon.png",
+    "id": "https://www.atlassian.com/software/jira",
+    "name": "Jira",
+    "type": "web_app",
+    "uuid": "jira"
+  },
+  {
+    "categories": [
+      "education"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/khan_academy/icon.png",
+    "id": "https://www.khanacademy.org/",
+    "name": "Khan Academy",
+    "type": "web_app",
+    "uuid": "khan_academy"
+  },
+  {
+    "categories": [
+      "communication"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/loom/icon.png",
+    "id": "https://www.loom.com/",
+    "name": "Loom",
+    "type": "web_app",
+    "uuid": "loom"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/lucidchart_diagrams/icon.png",
+    "id": "apboafhkiegglekeafbckfjldecefkhn",
+    "manifest": "{\n\"update_url\": \"https://clients2.google.com/service/update2/crx\",\n\n    \"name\": \"Lucidchart Diagrams\",\n    \"description\": \"__MSG_appDesc__\",\n    \"default_locale\": \"en\",\n    \"manifest_version\": 2,\n    \"api_console_project_id\" : \"7081045131\",\n    \"intents\":{\n        \"http://drive.google.com/intents/opendrivedoc\": [{\n            \"type\":[\"application/vnd.google.drive.ext-type.vsd\",\"application/vnd.google.drive.ext-type.vdx\",\"application/vnd.google.drive.ext-type.vsdx\",\"application/vnd.google.drive.ext-type.vsdm\",\"application/vnd.google.drive.ext-type.gliffy\",\"application/vnd.google.drive.ext-type.graffle\"],\n            \"href\": \"https://app.lucidchart.com/documents/driveApp\",\n            \"title\" : \"Open\",\n            \"disposition\" : \"window\"\n        }]\n    },\n\n    \"version\": \"22.3\",\n    \"app\": {\n        \"urls\": [\n            \"*://app.lucidchart.com/\"\n        ],\n        \"launch\": {\n            \"web_url\": \"https://app.lucidchart.com/documents/driveApp\"\n        }\n    },\n    \"icons\": {\n        \"128\": \"chrome_app_icon.png\",\n        \"96\": \"chrome_app_icon_96.png\",\n        \"48\": \"chrome_app_icon_48.png\",\n        \"32\": \"chrome_app_icon_32.png\",\n        \"16\": \"chrome_app_icon_16.png\"\n    },\n    \"permissions\": [\n        \"unlimitedStorage\",\n        \"notifications\",\n        \"clipboardRead\",\n        \"clipboardWrite\"\n    ]\n}\n",
+    "name": "Lucidchart Diagrams",
+    "type": "chrome_app",
+    "uuid": "lucidchart_diagrams"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/microsoft_office/icon.png",
+    "id": "https://www.office.com/",
+    "name": "Microsoft Office",
+    "type": "web_app",
+    "uuid": "microsoft_office"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.microsoft.office.powerpoint/icon.png",
+    "name": "PowerPoint",
+    "packageName": "com.microsoft.office.powerpoint",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.microsoft.office.powerpoint/com.microsoft.office.powerpoint_2002960072.apk",
+    "uuid": "com.microsoft.office.powerpoint",
+    "versionCode": 2002960072
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/miro/icon.png",
+    "id": "opfmbdmhambgleempeofcjjhjclimccg",
+    "manifest": "{\n\"update_url\": \"https://clients2.google.com/service/update2/crx\",\n\n  \"manifest_version\": 2,\n  \"name\": \"__MSG_appName__\",\n  \"description\": \"__MSG_appDesc__\",\n  \"container\" : \"GOOGLE_DRIVE\",\n  \"api_console_project_id\" : \"749020396903\",\n  \"version\": \"1.38.3.0\",\n  \"default_locale\": \"en\",\n  \"permissions\": [ \"clipboardRead\", \"clipboardWrite\" ],\n  \"icons\": {\n      \"128\": \"icon_128.png\"\n  },\n  \"app\": {\n    \"urls\": [\n      \"https://miro.com/\"\n    ],\n    \"launch\": {\n      \"web_url\": \"https://miro.com/from-chrome-store/\"\n    }\n  }\n}                 \n",
+    "name": "Miro",
+    "type": "chrome_app",
+    "uuid": "miro"
+  },
+  {
+    "categories": [
+      "project_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/monday/icon.png",
+    "id": "https://monday.com/",
+    "name": "Monday",
+    "type": "web_app",
+    "uuid": "monday"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/mural/icon.png",
+    "id": "https://www.mural.co/",
+    "name": "MURAL",
+    "type": "web_app",
+    "uuid": "mural"
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/netflix/icon.png",
+    "id": "https://www.netflix.com/",
+    "name": "Netflix",
+    "type": "web_app",
+    "uuid": "netflix"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/notion/icon.png",
+    "id": "https://www.notion.so/login/",
+    "name": "Notion",
+    "type": "web_app",
+    "uuid": "notion"
+  },
+  {
+    "categories": [
+      "file_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/onedrive/icon.png",
+    "id": "https://onedrive.live.com/?id=root",
+    "name": "OneDrive",
+    "type": "web_app",
+    "uuid": "onedrive"
+  },
+  {
+    "categories": [
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/ringcentral/icon.png",
+    "id": "https://app.ringcentral.com/login",
+    "name": "RingCentral",
+    "type": "web_app",
+    "uuid": "ringcentral"
+  },
+  {
+    "categories": [
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/skype/icon.png",
+    "id": "https://www.skype.com/",
+    "name": "Skype",
+    "type": "web_app",
+    "uuid": "skype"
+  },
+  {
+    "categories": [
+      "communication"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/slack/icon.png",
+    "id": "https://app.slack.com/client",
+    "name": "Slack",
+    "type": "web_app",
+    "uuid": "slack"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/spiro/icon.png",
+    "id": "https://spiro.ai/",
+    "name": "Spiro",
+    "type": "web_app",
+    "uuid": "spiro"
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/spotify/icon.png",
+    "id": "https://open.spotify.com/",
+    "name": "Spotify",
+    "type": "web_app",
+    "uuid": "spotify"
+  },
+  {
+    "categories": [
+      "communication",
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/teams/icon.png",
+    "id": "https://teams.microsoft.com/_#/",
+    "name": "Teams",
+    "type": "web_app",
+    "uuid": "teams"
+  },
+  {
+    "categories": [
+      "communication",
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/teams/icon.png",
+    "id": "https://gov.teams.microsoft.us/",
+    "name": "Teams (GCC)",
+    "type": "web_app",
+    "uuid": "teams_gcc"
+  },
+  {
+    "categories": [
+      "communication"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/outlook/icon.png",
+    "id": "https://outlook.live.com/",
+    "name": "Outlook",
+    "type": "web_app",
+    "uuid": "outlook"
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/prime_video/icon.png",
+    "id": "https://www.primevideo.com/",
+    "name": "Prime Video",
+    "type": "web_app",
+    "uuid": "prime_video"
+  },
+  {
+    "categories": [
+      "project_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/trello/icon.png",
+    "id": "https://trello.com/",
+    "name": "Trello",
+    "type": "web_app",
+    "uuid": "trello"
+  },
+  {
+    "categories": [
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/webex/icon.png",
+    "id": "https://www.webex.com/home3.html",
+    "name": "Webex Meet",
+    "type": "web_app",
+    "uuid": "webex"
+  },
+  {
+    "categories": [
+      "entertainment",
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/youtube/icon.png",
+    "id": "https://www.youtube.com/",
+    "name": "YouTube",
+    "type": "web_app",
+    "uuid": "youtube"
+  },
+  {
+    "categories": [
+      "video_conference"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/zoom/icon.png",
+    "id": "https://pwa.zoom.us/wc",
+    "name": "Zoom",
+    "type": "web_app",
+    "uuid": "zoom"
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.microsoft.office.word/icon.png",
+    "name": "Word",
+    "packageName": "com.microsoft.office.word",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.microsoft.office.word/com.microsoft.office.word_2002960072.apk",
+    "uuid": "com.microsoft.office.word",
+    "versionCode": 2002960072
+  },
+  {
+    "categories": [
+      "design_and_creativity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.adobe.psmobile/icon.png",
+    "name": "Photoshop Express",
+    "packageName": "com.adobe.psmobile",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.adobe.psmobile/com.adobe.psmobile_828.apk",
+    "uuid": "com.adobe.psmobile",
+    "versionCode": 828
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.microsoft.office.excel/icon.png",
+    "name": "Excel",
+    "packageName": "com.microsoft.office.excel",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.microsoft.office.excel/com.microsoft.office.excel_2002960072.apk",
+    "uuid": "com.microsoft.office.excel",
+    "versionCode": 2002960072
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.android.chrome/icon.png",
+    "name": "Chrome",
+    "packageName": "com.android.chrome",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.android.chrome/com.android.chrome_500507811.apk",
+    "uuid": "com.android.chrome",
+    "versionCode": 500507811
+  },
+  {
+    "categories": [
+      "data_visualization"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.microsoft.powerbim/icon.png",
+    "name": "Power BI",
+    "packageName": "com.microsoft.powerbim",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.microsoft.powerbim/com.microsoft.powerbim_21620862.apk",
+    "uuid": "com.microsoft.powerbim",
+    "versionCode": 21620862
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/onenote/icon.png",
+    "id": "https://www.onenote.com/",
+    "name": "OneNote",
+    "type": "web_app",
+    "uuid": "onenote"
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.ea.game.pvzfree_row/icon.png",
+    "name": "Plants vs. Zombies FREE",
+    "packageName": "com.ea.game.pvzfree_row",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.ea.game.pvzfree_row/com.ea.game.pvzfree_row_142.apk",
+    "uuid": "com.ea.game.pvzfree_row",
+    "versionCode": 142
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.bluebeam.drawings/icon.png",
+    "name": "Bluebeam Drawings",
+    "packageName": "com.bluebeam.drawings",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.bluebeam.drawings/com.bluebeam.drawings_55.apk",
+    "uuid": "com.bluebeam.drawings",
+    "versionCode": 55
+  },
+  {
+    "categories": [
+      "data_visualization"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.Tableau.TableauApp/icon.png",
+    "name": "Tableau",
+    "packageName": "com.Tableau.TableauApp",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.Tableau.TableauApp/com.Tableau.TableauApp_6312.apk",
+    "uuid": "com.Tableau.TableauApp",
+    "versionCode": 6312
+  },
+  {
+    "categories": [
+      "design_and_creativity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.adobe.sparklerandroid/icon.png",
+    "name": "Adobe XD",
+    "packageName": "com.adobe.sparklerandroid",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.adobe.sparklerandroid/com.adobe.sparklerandroid_53177.apk",
+    "uuid": "com.adobe.sparklerandroid",
+    "versionCode": 53177
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.onepeloton.callisto/icon.png",
+    "name": "Peloton",
+    "packageName": "com.onepeloton.callisto",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.onepeloton.callisto/com.onepeloton.callisto_442908.apk",
+    "uuid": "com.onepeloton.callisto",
+    "versionCode": 442908
+  },
+  {
+    "categories": [
+      "design_and_creativity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.adobe.lrmobile/icon.png",
+    "name": "Adobe Lightroom",
+    "packageName": "com.adobe.lrmobile",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.adobe.lrmobile/com.adobe.lrmobile_607041000.apk",
+    "uuid": "com.adobe.lrmobile",
+    "versionCode": 607041000
+  },
+  {
+    "categories": [
+      "education"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/no.mobitroll.kahoot.android/icon.png",
+    "name": "Kahoot!",
+    "packageName": "no.mobitroll.kahoot.android",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/no.mobitroll.kahoot.android/no.mobitroll.kahoot.android_1259.apk",
+    "uuid": "no.mobitroll.kahoot.android",
+    "versionCode": 1259
+  },
+  {
+    "categories": [
+      "design_and_creativity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.adsk.sketchbook/icon.png",
+    "name": "Sketchbook",
+    "packageName": "com.adsk.sketchbook",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.adsk.sketchbook/com.adsk.sketchbook_453932.apk",
+    "uuid": "com.adsk.sketchbook",
+    "versionCode": 453932
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.autodesk.autocadws/icon.png",
+    "name": "AutoCAD",
+    "packageName": "com.autodesk.autocadws",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.autodesk.autocadws/com.autodesk.autocadws_1649327871.apk",
+    "uuid": "com.autodesk.autocadws",
+    "versionCode": 1649327871
+  },
+  {
+    "categories": [
+      "data_visualization"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.google.looker/icon.png",
+    "name": "Looker",
+    "packageName": "com.google.looker",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.google.looker/com.google.looker_12102.apk",
+    "uuid": "com.google.looker",
+    "versionCode": 12102
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/easy.sudoku.puzzle.solver.free/icon.png",
+    "name": "Sudoku",
+    "packageName": "easy.sudoku.puzzle.solver.free",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/easy.sudoku.puzzle.solver.free/easy.sudoku.puzzle.solver.free_285.apk",
+    "uuid": "easy.sudoku.puzzle.solver.free",
+    "versionCode": 285
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.chess/icon.png",
+    "name": "Chess",
+    "packageName": "com.chess",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.chess/com.chess_261518.apk",
+    "uuid": "com.chess",
+    "versionCode": 261518
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.calm.android/icon.png",
+    "name": "Calm",
+    "packageName": "com.calm.android",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.calm.android/com.calm.android_4120237.apk",
+    "uuid": "com.calm.android",
+    "versionCode": 4120237
+  },
+  {
+    "categories": [
+      "entertainment"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.matteljv.uno/icon.png",
+    "name": "UNO!",
+    "packageName": "com.matteljv.uno",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.matteljv.uno/com.matteljv.uno_97270.apk",
+    "uuid": "com.matteljv.uno",
+    "versionCode": 97270
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.measuresquare.m2droid/icon.png",
+    "name": "MeasureSquare",
+    "packageName": "com.measuresquare.m2droid",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.measuresquare.m2droid/com.measuresquare.m2droid_160.apk",
+    "uuid": "com.measuresquare.m2droid",
+    "versionCode": 160
+  },
+  {
+    "categories": [
+      "productivity"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/com.google.android.calendar/icon.png",
+    "name": "Google Calendar",
+    "packageName": "com.google.android.calendar",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/com.google.android.calendar/com.google.android.calendar_2017103258.apk",
+    "uuid": "com.google.android.calendar",
+    "versionCode": 2017103258
+  },
+  {
+    "categories": [
+      "utilities"
+    ],
+    "icon": "https://dl.vibe.us/cros_apks/at.cwiesner.android.visualtimer/icon.png",
+    "name": "Visual Timer",
+    "packageName": "at.cwiesner.android.visualtimer",
+    "type": "android_app",
+    "url": "https://dl.vibe.us/cros_apks/at.cwiesner.android.visualtimer/at.cwiesner.android.visualtimer_202104079.apk",
+    "uuid": "at.cwiesner.android.visualtimer",
+    "versionCode": 202104079
+  },
+  {
+    "categories": [
+      "project_management"
+    ],
+    "icon": "https://dl.vibe.us/cros_app/hive/icon.png",
+    "id": "https://app.hive.com/signin/",
+    "name": "Hive",
+    "type": "web_app",
+    "uuid": "hive"
+  }
+]
