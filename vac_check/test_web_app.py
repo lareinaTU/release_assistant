@@ -8,7 +8,7 @@ def get_app_url_list(filename):
     url_list = []
     with open(filename, 'r') as load_f:
         load_dict = json.load(load_f)
-        for app_info in load_dict:
+        for app_info in load_dict['apps']:
             if app_info.get("type") == "web_app":
                 url_list.append(app_info.get("id"))
     return url_list
@@ -17,7 +17,7 @@ def get_app_url_list(filename):
 def check_for_redirects(url):
     try:
         url = url if url.startswith('http') else "http://%s" % url
-        r = requests.get(url, allow_redirects=False, timeout=8)
+        r = requests.get(url, allow_redirects=False, timeout=300)
         if 300 <= r.status_code < 400:
             redirect_url = url if url.startswith('http') else url + r.headers['location']
             if url == redirect_url:
@@ -35,7 +35,7 @@ def check_for_redirects(url):
 
 @ddt.ddt
 class TestWebApp(unittest.TestCase):
-    urls = get_app_url_list("./configs/apps/cros/test.json")
+    urls = get_app_url_list("./configs/apps/cros/apps_prod.json")
 
     @classmethod
     def setUpClass(cls):
