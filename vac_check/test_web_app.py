@@ -17,7 +17,10 @@ def get_app_url_list(filename):
 def check_for_redirects(url):
     try:
         url = url if url.startswith('http') else "http://%s" % url
-        r = requests.get(url, allow_redirects=False, timeout=300)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) '
+                          'Chrome/129.0.0.0 Safari/537.36 '}
+        r = requests.get(url, allow_redirects=False, timeout=300, headers=headers)
         if 300 <= r.status_code < 400:
             redirect_url = url if url.startswith('http') else url + r.headers['location']
             if url == redirect_url:
